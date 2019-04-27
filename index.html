@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GoldSmile</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-main">
+                <form class="header-search" action="#">
+                    <input type="text" placeholder="поиск">
+                    <button class="header-search__btn">
+                        <img src="img/header/search.png" alt="search">
+                    </button>
+                </form>
+                <div class="header-mobile">
+                    <span class="header-mobile__menu"></span>
+                </div>
+                <div class="mobile-menu">
+                    <a href="#">Кольца</a>
+                    <a href="#">Серьги</a>
+                    <a href="#">Подвески</a>
+                    <a href="#">Цепи</a>
+                    <a href="#">Еще украшения</a>
+                    <a href="#">Идеи подарков</a>
+                    <a href="#">Журнал</a>
+                    <a href="#">О компании</a>
+                </div>
+                <div class="header-logo">
+                    <div>
+                        <a href="#">
+                            <img src="img/header/logo.png" alt="logo">
+                        </a>
+                        <span class="header-logo__description">магазин ювелирных украшений</span>
+                    </div>
+                    <div>
+                        <span class="header-logo__smile">Дарите<br>с улыбкой!</span>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <div class="header-address">
+                        <span class="header-address__marker">
+                            <img src="img/header/pin.png" alt="marker">
+                            <a href="#">Адреса магазинов </a>
+                        </span>
+                        <a class="header-bonus" href="#">
+                            <img src="img/header/gift.png" alt="gift">
+                            <span>Ваши бонусы</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar">
+                <div class="navbar-menu">
+                    <div class="navbar-menu__item" id="burger_menu">
+                        <span class="navbar-menu__burger"></span>
+                        <a href="#">Каталог</a>
+                    </div>
+                    <div class="navbar-menu__item">
+                        <a href="#">Кольца</a>
+                    </div>
+                    <div class="navbar-menu__item">
+                        <a href="#">Серьги</a>
+                    </div>
+                    <div class="navbar-menu__item">
+                        <a href="#">Подвески</a>
+                    </div>
+                    <div class="navbar-menu__item">
+                        <a href="#">Цепи</a>
+                    </div>
+                    <div class="navbar-menu__item">
+                        <a href="#">Еще украшения</a>
+                    </div>
+                    <div class="navbar-menu__item">
+                        <a href="#">Идеи подарков</a>
+                    </div>
+                    <div class="navbar-menu__item">
+                        <a href="#">Журнал</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="menu">
+            <div class="container menu-catalog">
+                <div class="menu-catalog__list">
+                    <ul class="catalog-list">
+                        <li class="catalog-list__item">
+                            <a href="#">Кольца</a>
+                        </li>
+                        <li class="catalog-list__item">
+                            <a href="#">Серьги</a>
+                        </li>
+                        <li class="catalog-list__item">
+                            <a href="#">Подвески</a>
+                        </li>
+                        <li class="catalog-list__item">
+                            <a href="#">Цепи</a>
+                        </li>
+                        <li class="catalog-list__item">
+                            <a href="#">Браслеты</a>
+                        </li>
+                        <li class="catalog-list__item">
+                            <a href="#">Броши</a>
+                        </li>
+                        <li class="catalog-list__item">
+                            <a href="#">Бусы</a>
+                        </li>
+                        <li class="catalog-list__item">
+                            <a href="#">Бижутерия</a>
+                        </li>
+                        <li class="catalog-list__item">
+                            <a href="#">Колье</a>
+                        </li>
+                    </ul>
+                    <ul class="catalog-list">
+                        <li class="catalog-list__item">
+                            <a href="#">Булавки</a>
+                        </li>
+                        <li class="catalog-list__item">
+                            <a href="#">Часы</a>
+                        </li>
+                        <li class="catalog-list__item">
+                            <a href="#">Мужское</a>
+                        </li>
+                        <li class="catalog-list__item">
+                            <a href="#">Детское</a>
+                        </li>
+                        <li class="catalog-list__item">
+                            <a href="#">Заколки</a>
+                        </li>
+                        <li class="catalog-list__item">
+                            <a href="#">Религиозное</a>
+                        </li>
+                        <li class="catalog-list__item">
+                            <a href="#">Столовое серебро</a>
+                        </li>
+                        <li class="catalog-list__item">
+                            <a href="#">Пирсинг</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu-catalog__image">
+                    <img src="img/header/bracelet.jpg" alt="bracelet">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="paragraph">
+                <div class="paragraph-content">
+                    <a href="#" class="paragraph-content__home">
+                        <img src="img/paragraph/home.png" alt="home">
+                    </a>
+                    <span class="paragraph-content__arrow">
+                        <img src="img/paragraph/arrow.png" alt="arrow">
+                    </span>
+                    <span class="paragraph-content__text">Каталог</span>
+                </div>
+                <h2 class="paragraph-title">Каталог</h2>
+            </div>
+            <div class="product">
+                <div class="product-filter">
+                    <div class="product-filter__block">
+                        <div class="filter-main">
+                            <span class="filter-main__logo">
+                                <img src="img/product/filter.png" alt="filter">
+                            </span>
+                            <span class="filter-main__title">Фильтр</span>
+                            <span class="filter-main__x">
+                                <img src="img/product/x.png" alt="x">
+                            </span>
+                            <a href="#" class="filter-main__reset">Сбросить все</a>
+                        </div>
+                        <div class="filter">
+                            <div class="filter-type">
+                                <span class="filter-type__arrow">
+                                    <img src="img/product/filter-arrow.png" alt="filter-arrow">
+                                </span>
+                                <span class="filter-type__title">Вид украшения</span>
+                            </div>
+                            <div class="filter-type__sub invisible">
+                                <div class="checkbox">
+                                    <input id="check1" type="checkbox" name="check" value="check1" class="checkbox-input">
+                                    <label for="check1" class="checkbox-name">Кольца</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input id="check2" type="checkbox" name="check" value="check2" class="checkbox-input">
+                                    <label for="check2" class="checkbox-name">Серьги</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input id="check3" type="checkbox" name="check" value="check3" class="checkbox-input">
+                                    <label for="check3" class="checkbox-name">Подвески</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input id="check4" type="checkbox" name="check" value="check4" class="checkbox-input">
+                                    <label for="check4" class="checkbox-name">Цепи</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input id="check5" type="checkbox" name="check" value="check5" class="checkbox-input">
+                                    <label for="check5" class="checkbox-name">Браслеты</label>
+                                </div>
+                                <a class="filter-sub__link" href="#">Показать все</a>
+                            </div>
+                            <div class="filter-metal">
+                                <span class="filter-metal__arrow">
+                                    <img src="img/product/filter-arrow.png" alt="filter-arrow">
+                                </span>
+                                <span class="filter-metal__title">Металл</span>
+                                <span class="filter-metal__x">
+                                    <img src="img/product/x.png" alt="x">
+                                </span>
+                                <a href="#" class="filter-metal__reset">Сбросить</a>
+                            </div>
+                            <div class="filter-metal__sub invisible">
+                                <div class="checkbox">
+                                    <input id="check6" type="checkbox" name="check" value="check6" class="checkbox-input">
+                                    <label for="check6" class="checkbox-name">Золото 585</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input id="check78" type="checkbox" name="check" value="check78" class="checkbox-input">
+                                    <label for="check78" class="checkbox-name">Серебро 925</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input id="check8" type="checkbox" name="check" value="check8" class="checkbox-input">
+                                    <label for="check8" class="checkbox-name">Биметалл</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input id="check9" type="checkbox" name="check" value="check9" class="checkbox-input">
+                                    <label for="check9" class="checkbox-name">Бижутерный сплав</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input id="check10" type="checkbox" name="check" value="check10" class="checkbox-input">
+                                    <label for="check10" class="checkbox-name">Сталь</label>
+                                </div> 
+                            </div>
+                            <div class="filter-insert">
+                                <span class="filter-insert__arrow">
+                                    <img src="img/product/filter-arrow.png" alt="filter-arrow">
+                                </span>
+                                <span class="filter-insert__title">Вставка</span>
+                            </div>
+                            <div class="filter-insert__sub invisible">
+                                <div class="checkbox">
+                                    <input id="check11" type="checkbox" name="check" value="check11" class="checkbox-input">
+                                    <label for="check11" class="checkbox-name">Бриллиант</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input id="check12" type="checkbox" name="check" value="check12" class="checkbox-input">
+                                    <label for="check12" class="checkbox-name">Фианит</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input id="check13" type="checkbox" name="check" value="check13" class="checkbox-input">
+                                    <label for="check13" class="checkbox-name">Жемчуг</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input id="check14" type="checkbox" name="check" value="check14" class="checkbox-input">
+                                    <label for="check14" class="checkbox-name">Топаз</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input id="check15" type="checkbox" name="check" value="check15" class="checkbox-input">
+                                    <label for="check15" class="checkbox-name">Гранат</label>
+                                </div> 
+                                <a class="filter-sub__link" href="#">Показать все</a>
+                            </div>
+                            <div class="filter-additionally">
+                                <span class="filter-additionally__arrow">
+                                    <img src="img/product/filter-arrow.png" alt="filter-arrow">
+                                </span>
+                                <span class="filter-additionally__title">Дополнительно</span>
+                            </div>
+                            <div class="filter-additionally__sub invisible">
+                                <div class="checkbox">
+                                    <input id="check16" type="checkbox" name="check" value="check16" class="checkbox-input">
+                                    <label for="check16" class="checkbox-name">Коллекции</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input id="check17" type="checkbox" name="check" value="check17" class="checkbox-input">
+                                    <label for="check17" class="checkbox-name">Хиты продаж</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input id="check18" type="checkbox" name="check" value="check18" class="checkbox-input">
+                                    <label for="check18" class="checkbox-name">Sale</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input id="check19" type="checkbox" name="check" value="check19" class="checkbox-input">
+                                    <label for="check19" class="checkbox-name">Новинки</label>
+                                </div>
+                            </div>
+                            <div class="filter-price">
+                                <span class="filter-price__arrow">
+                                    <img src="img/product/filter-arrow.png" alt="filter-arrow">
+                                </span>
+                                <span class="filter-price__title">Цена, руб.</span>
+                                <span class="filter-price__x">
+                                    <img src="img/product/x.png" alt="x">
+                                </span>
+                                <a href="#" class="filter-price__reset">Сбросить</a>
+                            </div>
+                            <div class="filter-price__sub invisible">
+                                <div class="filter-price__block">
+                                    <div>
+                                        <label>от</label>
+                                        <input type="text" id="minCost" value="0">
+                                    </div>
+                                    <div>
+                                        <label>до</label>
+                                        <input type="text" id="maxCost" value="10000">
+                                    </div>
+                                </div>
+                                <div class="filter-price__slider" id="slider-range"></div>
+                            </div>
+                            <div class="filter-color">
+                                <span class="filter-color__arrow">
+                                    <img src="img/product/filter-arrow.png" alt="filter-arrow">
+                                </span>
+                                <span class="filter-color__title">Цвет вставки</span>
+                            </div>
+                            <div class="filter-color__sub invisible">
+                                <div class="color-block">
+                                    <div class="color-box">
+                                        <input id="check20" type="checkbox" name="check" value="check20">
+                                        <label for="check20"></label>
+                                    </div>
+                                    <div class="color-box">
+                                        <input id="check21" type="checkbox" name="check" value="check21">
+                                        <label for="check21"></label>
+                                    </div>
+                                    <div class="color-box">
+                                        <input id="check22" type="checkbox" name="check" value="check22">
+                                        <label for="check22"></label>
+                                    </div>
+                                    <div class="color-box">
+                                        <input id="check23" type="checkbox" name="check" value="check23">
+                                        <label for="check23"></label>
+                                    </div>
+                                    <div class="color-box">
+                                        <input id="check24" type="checkbox" name="check" value="check24">
+                                        <label for="check24"></label>
+                                    </div>
+                                    <div class="color-box">
+                                        <input id="check25" type="checkbox" name="check" value="check25">
+                                        <label for="check25"></label>
+                                    </div>
+                                    <div class="color-box">
+                                        <input id="check26" type="checkbox" name="check" value="check26">
+                                        <label for="check26"></label>
+                                    </div>
+                                    <div class="color-box">
+                                        <input id="check27" type="checkbox" name="check" value="check27">
+                                        <label for="check27"></label>
+                                    </div>
+                                    <div class="color-box">
+                                        <input id="check28" type="checkbox" name="check" value="check28">
+                                        <label for="check28"></label>
+                                    </div>
+                                    <div class="color-box">
+                                        <input id="check29" type="checkbox" name="check" value="check29">
+                                        <label for="check29"></label>
+                                    </div>
+                                    <div class="color-box">
+                                        <input id="check30" type="checkbox" name="check" value="check30">
+                                        <label for="check30"></label>
+                                    </div>
+                                    <div class="color-box">
+                                        <input id="check31" type="checkbox" name="check" value="check31">
+                                        <label for="check31"></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-block">
+                    <div class="product-box">
+                        <div class="product-box__image">
+                            <img src="img/product/ring-1.jpg" alt="ring">
+                        </div>
+                        <span class="product-box__title">Обручальное кольцо из серебра с фианитом</span>
+                        <span class="product-box__description">Серебро 925, фианит<br><span>Артикул 01-114603</span></span>
+                        <div class="product-price">
+                            <span class="product-price__sale">2 350 руб.<span>3 200 руб.</span></span>
+                            <button class="product-price__btn">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <div class="product-box__image">
+                            <img src="img/product/ring-2.jpg" alt="ring">
+                        </div>
+                        <span class="product-box__title">Кольцо-трансформер из серебра с эмалью с фианитом</span>
+                        <span class="product-box__description">Серебро 925, фианит<br><span>Артикул 01-114603</span></span>
+                        <div class="product-price">
+                            <span class="product-price__sale">2 350 руб.<span>3 200 руб.</span></span>
+                            <button class="product-price__btn">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <div class="product-box__image">
+                            <img src="img/product/ring-3.jpg" alt="ring">
+                        </div>
+                        <span class="product-box__title">Наборное кольцо из серебра с фианитами</span>
+                        <span class="product-box__description">Серебро 925, фианит<br><span>Артикул 01-114603</span></span>
+                        <div class="product-price">
+                            <span class="product-price__sale">2 350 руб.<span>3 200 руб.</span></span>
+                            <button class="product-price__btn">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <div class="product-box__image">
+                            <img src="img/product/ring-3.jpg" alt="ring">
+                        </div>
+                        <span class="product-box__title">Наборное кольцо из серебра с фианитами</span>
+                        <span class="product-box__description">Серебро 925, фианит<br><span>Артикул 01-114603</span></span>
+                        <div class="product-price">
+                            <span class="product-price__sale">2 350 руб.<span>3 200 руб.</span></span>
+                            <button class="product-price__btn">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <div class="product-box__image">
+                            <img src="img/product/ring-1.jpg" alt="ring">
+                        </div>
+                        <span class="product-box__title">Обручальное кольцо из серебра с фианитом</span>
+                        <span class="product-box__description">Серебро 925, фианит<br><span>Артикул 01-114603</span></span>
+                        <div class="product-price">
+                            <span class="product-price__sale">2 350 руб.<span>3 200 руб.</span></span>
+                            <button class="product-price__btn">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <div class="product-box__image">
+                            <img src="img/product/ring-2.jpg" alt="ring">
+                        </div>
+                        <span class="product-box__title">Кольцо-трансформер из серебра с эмалью с фианитом</span>
+                        <span class="product-box__description">Серебро 925, фианит<br><span>Артикул 01-114603</span></span>
+                        <div class="product-price">
+                            <span class="product-price__sale">2 350 руб.<span>3 200 руб.</span></span>
+                            <button class="product-price__btn">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <div class="product-box__image">
+                            <img src="img/product/ring-2.jpg" alt="ring">
+                        </div>
+                        <span class="product-box__title">Кольцо-трансформер из серебра с эмалью с фианитом</span>
+                        <span class="product-box__description">Серебро 925, фианит<br><span>Артикул 01-114603</span></span>
+                        <div class="product-price">
+                            <span class="product-price__sale">2 350 руб.<span>3 200 руб.</span></span>
+                            <button class="product-price__btn">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <div class="product-box__image">
+                            <img src="img/product/ring-3.jpg" alt="ring">
+                        </div>
+                        <span class="product-box__title">Наборное кольцо из серебра с фианитами</span>
+                        <span class="product-box__description">Серебро 925, фианит<br><span>Артикул 01-114603</span></span>
+                        <div class="product-price">
+                            <span class="product-price__sale">2 350 руб.<span>3 200 руб.</span></span>
+                            <button class="product-price__btn">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <div class="product-box__image">
+                            <img src="img/product/ring-1.jpg" alt="ring">
+                        </div>
+                        <span class="product-box__title">Обручальное кольцо из серебра с фианитом</span>
+                        <span class="product-box__description">Серебро 925, фианит<br><span>Артикул 01-114603</span></span>
+                        <div class="product-price">
+                            <span class="product-price__sale">2 350 руб.<span>3 200 руб.</span></span>
+                            <button class="product-price__btn">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <div class="product-box__image">
+                            <img src="img/product/ring-1.jpg" alt="ring">
+                        </div>
+                        <span class="product-box__title">Обручальное кольцо из серебра с фианитом</span>
+                        <span class="product-box__description">Серебро 925, фианит<br><span>Артикул 01-114603</span></span>
+                        <div class="product-price">
+                            <span class="product-price__sale">2 350 руб.<span>3 200 руб.</span></span>
+                            <button class="product-price__btn">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <div class="product-box__image">
+                            <img src="img/product/ring-2.jpg" alt="ring">
+                        </div>
+                        <span class="product-box__title">Кольцо-трансформер из серебра с эмалью с фианитом</span>
+                        <span class="product-box__description">Серебро 925, фианит<br><span>Артикул 01-114603</span></span>
+                        <div class="product-price">
+                            <span class="product-price__sale">2 350 руб.<span>3 200 руб.</span></span>
+                            <button class="product-price__btn">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <div class="product-box__image">
+                            <img src="img/product/ring-3.jpg" alt="ring">
+                        </div>
+                        <span class="product-box__title">Наборное кольцо из серебра с фианитами</span>
+                        <span class="product-box__description">Серебро 925, фианит<br><span>Артикул 01-114603</span></span>
+                        <div class="product-price">
+                            <span class="product-price__sale">2 350 руб.<span>3 200 руб.</span></span>
+                            <button class="product-price__btn">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <div class="product-box__image">
+                            <img src="img/product/ring-3.jpg" alt="ring">
+                        </div>
+                        <span class="product-box__title">Наборное кольцо из серебра с фианитами</span>
+                        <span class="product-box__description">Серебро 925, фианит<br><span>Артикул 01-114603</span></span>
+                        <div class="product-price">
+                            <span class="product-price__sale">2 350 руб.<span>3 200 руб.</span></span>
+                            <button class="product-price__btn">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <div class="product-box__image">
+                            <img src="img/product/ring-1.jpg" alt="ring">
+                        </div>
+                        <span class="product-box__title">Обручальное кольцо из серебра с фианитом</span>
+                        <span class="product-box__description">Серебро 925, фианит<br><span>Артикул 01-114603</span></span>
+                        <div class="product-price">
+                            <span class="product-price__sale">2 350 руб.<span>3 200 руб.</span></span>
+                            <button class="product-price__btn">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <div class="product-box__image">
+                            <img src="img/product/ring-2.jpg" alt="ring">
+                        </div>
+                        <span class="product-box__title">Кольцо-трансформер из серебра с эмалью с фианитом</span>
+                        <span class="product-box__description">Серебро 925, фианит<br><span>Артикул 01-114603</span></span>
+                        <div class="product-price">
+                            <span class="product-price__sale">2 350 руб.<span>3 200 руб.</span></span>
+                            <button class="product-price__btn">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-block">
+                <div class="footer-about">
+                    <span class="footer-about__title">О компании</span>
+                    <ul class="footer-about__list">
+                        <li class="footer-list">
+                            <a href="#">Услуги покупателям</a>
+                        </li>
+                        <li class="footer-list">
+                            <a href="#">Бонусная программа</a>
+                        </li>
+                        <li class="footer-list">
+                            <a href="#">Новости</a>
+                        </li>
+                        <li class="footer-list">
+                            <a href="#">Контакты</a>
+                        </li>
+                        <li class="footer-list">
+                            <a href="#">Вакансии</a>
+                        </li>
+                        <li class="footer-list">
+                            <a href="#">О GoldSmile</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-catalog">
+                    <span class="footer-catalog__title">Каталог</span>
+                    <div class="footer-catalog__block">
+                        <ul class="footer-block__list">
+                            <li class="footer-list">
+                                <a href="#">Коллекции</a>
+                            </li>
+                            <li class="footer-list">
+                                <a href="#">Хиты продаж</a>
+                            </li>
+                            <li class="footer-list">
+                                <a href="#">Sale</a>
+                            </li>
+                            <li class="footer-list">
+                                <a href="#">Новинки</a>
+                            </li>
+                        </ul>
+                        <ul class="footer-block__list">
+                            <li class="footer-list">
+                                <a href="#">Бижутерия</a>
+                            </li>
+                            <li class="footer-list">
+                                <a href="#">Браслеты</a>
+                            </li>
+                            <li class="footer-list">
+                                <a href="#">Броши</a>
+                            </li>
+                            <li class="footer-list">
+                                <a href="#">Булавки</a>
+                            </li>
+                            <li class="footer-list">
+                                <a href="#">Бусы</a>
+                            </li>
+                            <li class="footer-list">
+                                <a href="#">Детское</a>
+                            </li>
+                        </ul>
+                        <ul class="footer-block__list">
+                            <li class="footer-list">
+                                <a href="#">Заколки</a>
+                            </li>
+                            <li class="footer-list">
+                                <a href="#">Колье</a>
+                            </li>
+                            <li class="footer-list">
+                                <a href="#">Кольца</a>
+                            </li>
+                            <li class="footer-list">
+                                <a href="#">Мужское</a>
+                            </li>
+                            <li class="footer-list">
+                                <a href="#">Пирсинг</a>
+                            </li>
+                            <li class="footer-list">
+                                <a href="#">Подвески</a>
+                            </li>
+                        </ul>
+                        <ul class="footer-block__list">
+                            <li class="footer-list">
+                                <a href="#">Религиозное</a>
+                            </li>
+                            <li class="footer-list">
+                                <a href="#">Серьги</a>
+                            </li>
+                            <li class="footer-list">
+                                <a href="#">Столовое серебро</a>
+                            </li>
+                            <li class="footer-list">
+                                <a href="#">Цепи</a>
+                            </li>
+                            <li class="footer-list">
+                                <a href="#">Часы</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <span class="footer-social__title">Узнавайте о скидках<br>первыми!</span>
+                    <input type="text" placeholder="Подписаться">
+                    <div class="footer-social__block">
+                        <a href="#" class="footer-social__box">
+                            <img src="img/footer/vk.png" alt="vk">
+                        </a>
+                        <a href="#" class="footer-social__box">
+                            <img src="img/footer/ok.png" alt="ok">
+                        </a>
+                        <a href="#" class="footer-social__box">
+                            <img src="img/footer/insta.png" alt="insta">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="footer-copyright__company">
+                    <span class="footer-company">© <span>2017   GoldSmile</span></span>
+                </div>
+                <div class="footer-copyright__developer">
+                    <span class="footer-developer">Разработка сайта</span>
+                    <a href="#">
+                        <img src="img/footer/developer.png" alt="developer">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.4.0.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/filter.js"></script>
+</body>
+</html>
