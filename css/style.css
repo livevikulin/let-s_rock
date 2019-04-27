@@ -1548,6 +1548,15 @@ body {
   .product-price {
     width: 270px;
   }
+  .filter-main__title {
+    margin-right: 30px;
+  }
+  .filter-metal__title {
+    margin-right: 46px;
+  }
+  .filter-price__title {
+    margin-right: 25px;
+  }
 }
 
 .footer {
